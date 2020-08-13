@@ -1,6 +1,10 @@
-
-
 /* Global styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   color: #343434;
   margin: 0;
@@ -60,7 +64,20 @@ header {
 .projects .btn:hover {
   background-color: rgb(47, 48, 97, 80%);
 }
-
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.project-item img {
+  width: 50%;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.project-item h3 {
+  margin-top: 0;
+}
 /* Work Experience */
 .work-experience {
   background-color: #A1C6D7;
