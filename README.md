@@ -1,4 +1,5 @@
 # linkedin-learning-html-css
 
-- Updated Typography
-- Next update: Float and box model fix
+- Applied Responsive Styles - Aug 18, 2020
+- Completed the web development
+- Next update: will update ReadMe.md
